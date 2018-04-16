@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/jan"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTint="@android:color/white"
+        android:title="January" />
+
+    <item
+        android:id="@+id/feb"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTint="@android:color/white"
+        android:title="February" />
+
+    <item
+        android:id="@+id/march"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTint="@android:color/white"
+        android:title="March" />
+
+    <item
+        android:id="@+id/april"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTint="@android:color/white"
+        android:title="April" />
+
+    <item
+        android:id="@+id/may"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTint="@android:color/white"
+        android:title="May" />
+
+    <item
+        android:id="@+id/june"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTint="@android:color/white"
+        android:title="June" />
+
+    <item
+        android:id="@+id/july"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTint="@android:color/white"
+        android:title="July" />
+
+    <item
+        android:id="@+id/aug"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTint="@android:color/white"
+        android:title="August" />
+
+    <item
+        android:id="@+id/sept"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTint="@android:color/white"
+        android:title="September" />
+
+    <item
+        android:id="@+id/oct"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTint="@android:color/white"
+        android:title="October" />
+
+    <item
+        android:id="@+id/nov"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTint="@android:color/white"
+        android:title="November" />
+
+    <item
+        android:id="@+id/dec"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTint="@android:color/white"
+        android:title="December" />
+
+</menu>

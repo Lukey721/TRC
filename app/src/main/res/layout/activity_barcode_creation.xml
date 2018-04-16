@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lukey.trc.BarcodeCreation">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+
+        <ImageView
+            android:id="@+id/barcodeImage"
+            android:layout_width="600dp"
+            android:layout_height="600dp"
+            app:srcCompat="@color/cardview_light_background"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="150dp"/>
+
+        <TextView
+            android:id="@+id/barcodeDisplay"
+            android:layout_width="276dp"
+            android:layout_height="39dp"
+            android:layout_alignLeft="@+id/barcodeImage"
+            android:layout_alignRight="@+id/barcodeImage"
+            android:lines="2"
+            android:textSize="30dp"
+            android:text="Barcode"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="430dp"
+            android:layout_marginBottom="200dp" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/enterBarcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Barcode"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="63dp"
+        app:layout_constraintHorizontal_bias="0.503"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="302dp"
+        android:layout_height="29dp"
+        android:textSize="16dp"
+        android:text="Please enter barcode you want to generate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintHorizontal_bias="0.646" />
+
+
+    <Button
+        android:id="@+id/generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintVertical_bias="0.235" />
+
+</android.support.constraint.ConstraintLayout>
